@@ -1,0 +1,22 @@
+{
+  "name": "baasbox",
+  "version": "0.9.4",
+  "description": "Javascript SDK for the BaasBox back end.",
+  "main": "baasbox.js",
+  "files": [
+    "baasbox.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlls/baasbox-js-npm-package.git"
+  },
+  "author": "Sebastian Zilles <dev@zilles.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zlls/baasbox-js-npm-package/issues"
+  },
+  "homepage": "https://github.com/zlls/baasbox-js-npm-package#readme"
+}
