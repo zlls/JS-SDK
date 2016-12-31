@@ -1,6 +1,6 @@
 {
   "name": "baasbox",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Javascript SDK for the BaasBox back end.",
   "main": "baasbox.js",
   "files": [

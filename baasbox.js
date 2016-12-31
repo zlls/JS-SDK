@@ -1,11 +1,11 @@
 /*!
- * BaasBox SDK 0.9.4
+ * BaasBox SDK 0.9.5
  * https://github.com/baasbox/JS-SDK
  *
  * Released under the Apache license
  */
 
-var BaasBox = (function() {
+window.BaasBox = (function() {
 
     var instance;
     var user;
@@ -89,7 +89,7 @@ var BaasBox = (function() {
       appcode: "",
       pagelength: 50,
       timeout: 20000,
-      version: "0.9.4",
+      version: "0.9.5",
       // permission constants
       READ_PERMISSION: "read",
       DELETE_PERMISSION: "delete",
