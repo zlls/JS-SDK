@@ -1,13 +1,15 @@
 {
   "name": "baasbox",
-  "version": "0.11.0",
+  "version": "0.12.1",
   "description": "Javascript SDK for the BaasBox back end.",
-  "main": "baasbox.js",
+  "main": "dist/baasbox.js",
   "files": [
-    "baasbox.js"
+    "dist/"
   ],
   "scripts": {
-    "test": "eslint ./baasbox.js"
+    "test": "eslint src/baasbox.js",
+    "build": "babel src/ --out-dir dist/",
+    "prepare": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,10 @@
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.3.0"
+    "eslint-plugin-import": "^2.3.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-babili": "0.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
   }
 }

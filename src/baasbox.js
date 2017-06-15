@@ -1,5 +1,5 @@
 /*!
- * BaasBox SDK 0.11.0
+ * BaasBox SDK 0.12.0
  * https://github.com/baasbox/JS-SDK
  *
  * Released under the Apache license
@@ -66,7 +66,7 @@ const BaasBox = (function BaasBoxFunc() {
     appcode: '',
     pagelength: 50,
     timeout: 20000,
-    version: '0.9.5',
+    version: '0.12.0',
     // permission constants
     READ_PERMISSION: 'read',
     DELETE_PERMISSION: 'delete',
